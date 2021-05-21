@@ -19,7 +19,7 @@ const Jokes = () =>{
 
         interval = setInterval(function(){
            loadJoke()
-        }, 10000)
+        }, 30000)
 
         return () => clearInterval(interval)
     },[])
